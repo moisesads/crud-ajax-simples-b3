@@ -7,11 +7,13 @@
   <img src="https://i.imgur.com/Rq7pqhh.gif" width="700" alt="vform">
 </p>
 
-```
-npm install crud-ajax-simples
-```
+#Instalação
 
-Tag HTML
+```
+npm i -s crud-ajax-simples
+
+```
+#Tag HTML 
 
 ```html
 
