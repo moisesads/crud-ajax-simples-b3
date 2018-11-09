@@ -3,13 +3,15 @@
   "description": "CRUD Ajax/Json Simples e Reutilizável - Bootstrap 3",
   "keywords": [],
   "tags": [],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Moisés <webdesign.moises@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moisesads/crud-ajax-simples-b3.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vform": "^1.0.0"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=0.8.0"
