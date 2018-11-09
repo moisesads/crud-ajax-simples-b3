@@ -1,8 +1,8 @@
 
-import CrudAjaxSimples from '@/CrudAjaxSimples'
+import CrudAjaxSimples from './CrudAjaxSimples'
 
 export default {
-  install : function (Vue, options){
+  install : function (Vue){
     Vue.component(CrudAjaxSimples.name, CrudAjaxSimples)
   }
 }

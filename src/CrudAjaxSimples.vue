@@ -157,6 +157,8 @@
 
 import Form from 'vform'
 import { HasError } from 'vform'
+import axios from 'axios'
+import { mapValues, clone } from 'lodash'
 
 export default {
 
@@ -257,7 +259,7 @@ export default {
       novo(){
           this.limpar()
           this.idUpdate = 'novo'
-          let values = _.mapValues(this.formFields, (o) => { return '' })
+          let values = mapValues(this.formFields, (o) => { return '' })
           this.form = new Form(values)
       },
 
@@ -335,8 +337,8 @@ export default {
 
   created(){
       this.getAll()
-      this.formFields = _.clone(this.fields)
-      let values = _.mapValues(this.formFields, (o) => { return '' })
+      this.formFields = clone(this.fields)
+      let values = mapValues(this.formFields, (o) => { return '' })
       this.form = new Form(values)
   }
 

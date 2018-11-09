@@ -10,7 +10,10 @@
     "url": "git+https://github.com/moisesads/crud-ajax-simples-b3.git"
   },
   "dependencies": {
-    "vform": "^1.0.0"
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "vform": "^1.0.0",
+    "vue": "^2.5.17"
   },
   "license": "MIT",
   "engines": {
